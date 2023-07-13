@@ -21,10 +21,11 @@ ApplicationWindow {
             }
         }
     }
-
     MediaPlayer {
         id: videoPlayer
         videoOutput: videoOutput
+        activeAudioTrack: 1
+        audioOutput: AudioOutput {}
     }
 
     Rectangle {
